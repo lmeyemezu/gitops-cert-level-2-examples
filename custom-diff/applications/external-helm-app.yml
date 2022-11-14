@@ -27,3 +27,10 @@ ignoreDifferences:
     kind: "*"
     managedFieldsManagers:
     - rollouts-controller
+  - group: core
+    jsonPointers:
+    - my-username
+    - my-password
+    kind: Secret
+    name: example-secret
+    namespace: example02  
